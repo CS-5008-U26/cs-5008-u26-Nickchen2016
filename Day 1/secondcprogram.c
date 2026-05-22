@@ -8,6 +8,7 @@ int main() {
     printf("%s? That's a funny name!\n",s); // I added '\n' in the end of the string to leave space for the hint to exit the console
     printf("Press the enter key to quit..."); // The hint for user to exit the console
     getchar(); //Hit the Enter key to quit
+    // fgets(t,100,stdin); Can function as the way to exit the console.
 
     return 0; //End the program with a return value of 0, which means the program ended successfully
 }
