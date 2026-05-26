@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &number);
     fgets(s, 100, stdin);
 
-    if(number > 10 || number < 1) { // Error handling for invalid numbers
+    if((number > 10) || (number < 1)) { // Error handling for invalid numbers
         printf("Invalid input. Please enter a number between 1 and 10.\n");
     }else{
         // Switch statment to determine the letter grades
