@@ -33,4 +33,5 @@ int main() {
             printf("Your paycheck is $%.2lf\n", x*y);
         }
     }
+    fgets(s,100,stdin);
 }

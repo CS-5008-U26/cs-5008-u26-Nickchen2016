@@ -28,4 +28,5 @@ int main() {
     }else{
         printf("Invalid input. Please enter a number between 1 and 100.");
     }
+    fgets(s,100,stdin); // Pause the console so we can look at it before it vanishes
 }

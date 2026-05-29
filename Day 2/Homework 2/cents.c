@@ -78,4 +78,5 @@ int main() {
     }
 
     printf(".\n"); // End the output with a period and newline
+    fgets(s,100,stdin); // Pause the console so we can look at it before it vanishes
 }

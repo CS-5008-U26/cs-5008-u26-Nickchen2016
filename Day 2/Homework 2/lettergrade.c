@@ -26,4 +26,5 @@ int main() {
     }else{
         printf("Your letter grade is F\n");
     }
+    fgets(s,100,stdin); // Pause the console so we can look at it before it vanishes
 }

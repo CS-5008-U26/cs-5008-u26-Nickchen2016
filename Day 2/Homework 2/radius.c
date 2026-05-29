@@ -15,4 +15,5 @@ int main() {
 
     // Calculate and print the area of the circle as an integer
     printf("For a circle of radius %.1f the area is %d\n", (float)radius, (int)(pi * radius * radius));
+    fgets(s,100,stdin); // Pause the console so we can look at it before it vanishes
 }
