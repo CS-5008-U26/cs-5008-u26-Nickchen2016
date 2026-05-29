@@ -19,7 +19,6 @@ int main() {
 
     printf("Enter the second number: ");
     scanf("%d", &y);
-    /* Pause the console so we can look at it before it vanishes */
     fgets(s,100,stdin);
     printf("You entered %d\n", y);
 
@@ -30,6 +29,8 @@ int main() {
 
     printf("The sum of first two numbers is %d\n", x+y);
     printf("The division between the sum of first two numbers and the third number is %d\n", (x+y)/z);
+    /* Pause the console so we can look at it before it vanishes */
+    fgets(s,100,stdin);
 
     return 0;
 }

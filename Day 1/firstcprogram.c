@@ -24,18 +24,15 @@ int main() {
 
     printf("You entered %d\n", x);  // tell the user what number they just entered
     
-    /* Normally I would not put a comment on every line of code.
-       I just did it above because you are learning C for the first time.
-       I would only put a comment on a line if it was hard to understand or required that you
-       know something that is not entirely obvious by looking at the code.
-    */
+    
     printf("Enter the second number: ");
     scanf("%d", &y);
-    /* Pause the console so we can look at it before it vanishes */
     fgets(s,100,stdin);
     printf("You entered %d\n", y);
 
     printf("The sum of those two numbers is %d\n", x+y);
+    /* Pause the console so we can look at it before it vanishes */
+    fgets(s,100,stdin);
 
     return 0;
 }
