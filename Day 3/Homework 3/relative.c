@@ -13,7 +13,7 @@ int gcd(int a, int b) {
 }
 // The ET function is used to get the relative prime numbers by using the GCD function
 int et (int x) {
-    int count = 0;
+    int count = 0; // The count is used to determine wether to print " , " before the relative prime number or not
     for (int i = 2; i < x; i++) {
         if (gcd(x, i) == 1) {
             if( count == 0) {
