@@ -10,8 +10,8 @@ int count(int p, int q, int r) {
     srand(time(NULL)); // Seed the random number generator with the current time
     int randomNum;
     for (int i = 0; i < p; i++) {
-        randomNum = rand() % (q + 1);
-        if (randomNum < r && randomNum >= 0) {
+        randomNum = rand() % (q + 1); // Generate a random number between 0 and q (inclusive)
+        if (randomNum < r && randomNum >= 0) { // Check if the random number is within the specified range
             printf("The random number is: %d\n", randomNum);
         }
     }
