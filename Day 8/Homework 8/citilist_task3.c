@@ -196,7 +196,7 @@ int main() {
             int high = index - 1;
             int target = 36081;
 
-            while(low<=high) {
+            while(low<=high) { // Start with the mid of the array, because the array is already sorted
                 int mid = (low + high) / 2;
                 int currentFIPS = cityArr[mid]->countryFips;
 
