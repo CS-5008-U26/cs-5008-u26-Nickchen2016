@@ -59,12 +59,7 @@ void initializeGrid(){
 void GenerateRandomObstacles(Node *start, Node *goal) {
     for(int i = 0; i < ROWS; i++) {
         for(int j = 0; j < COLS; j++) {
-            if(rand() % 100 < 20 
-                    // Skip the User entered starting and ending points
-                    && start->row != i
-                    && start->col != j
-                    && goal->row != i
-                    && goal->col != j) {
+            if(rand() % 100 < 20) {
                 // Assign an obstacle whenever the value is 1
                 grid[i][j].obstacle = 1;
             }else{
@@ -72,6 +67,9 @@ void GenerateRandomObstacles(Node *start, Node *goal) {
             }
         }
     }
+    // Starting and ending node will always be non-obstacle 
+    start->obstacle = 0;
+    goal->obstacle = 0;
 }
 
 // Manhattan Distance - count for the estimated cost - The H value
@@ -276,6 +274,7 @@ void AStar(Node *start, Node *goal)
 int main() {
     srand(time(NULL));
     initializeGrid();
+    // GenerateRandomObstacles();
 
     char s[100];
 
