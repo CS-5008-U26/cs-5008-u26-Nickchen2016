@@ -65,3 +65,10 @@ followed by the coordinates of the path and the final map.
 If no valid path exists because the obstacles completely block the route, the program will display:
 
 No Path Exists
+
+----------------------------------------------------------------------
+Author
+Developed as a CS5008 Final Project demonstrating the A* Shortest Path Algorithm in C by Yahua Chen
+
+----------------------------------------------------------------------
+Link to my Presentation PPT: https://northeastern-my.sharepoint.com/:p:/r/personal/chen_yahu_northeastern_edu/Documents/Yahua_Chen_CS5008_Final_Project.pptx?d=w1831bac90e5d4aa7aeff43f1322e6825&csf=1&web=1&e=Xtcyq9
